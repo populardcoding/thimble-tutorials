@@ -1,0 +1,17 @@
+<h2>Iniciativa</h2>
+Dentro del compromiso comunitario y de innovación de Popular, estamos ofreciendo los talleres D-coding, libres de costo.
+
+
+<h2>Coding</h2>
+Coding es el lenguaje de programación y análisis que se utiliza en el diseño y funcionamiento de los procesos computadorizados con el propósito de asignar, clasificar y ejecutar.
+
+
+<h2>Expertos</h2>
+Charlas educativas llevadas a cabo por expertos en la materia, que forman parte de nuestro equipo de tecnología y un empleado actual de la red social LinkedIn.
+
+
+<h2>Taller</h2>
+Se le estará dando la oportunidad a los estudiantes a codificar mediante un taller "hands-on", donde tendrán la oportunidad de completar un juego.
+
+
+

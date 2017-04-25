@@ -1,0 +1,66 @@
+Instrucciones
+- - - - - - - - - 
+Vamos a elaborar un poco sobre la leccion de Aramis
+
+Vamos a crear un archivo aparte que sea tipo Javascript
+
+*IMPORTANTE: Asegurense siempre que comienzen un elemento de HTML lo cierren. 
+
+Ejemplo
+Si habren el elemento de división así:  <div>
+Asegurense de cerrar el elemento así: 	</div>
+
+
+- - - - - - - - - - - - - - - - - - 
+Creando nuestro primer archivo JS
+- - - - - - - - - - - - - - - - - - 
+
+Encima de nuestra estructura vamos ir como si fueramos a anadir archivo de nuestra computadora pero vamos a crear uno de tipo Javascript
+
+Para enlazar este archivo a nuestro index.html, dentro de nuestro tag de <body> pondremos la siguiente linea
+
+    <script src="script.js"></script>
+    "Reemplazando script.js por el nombre de nuestro archivo"
+
+Luego vamos a crear nuestros elementos en HTML que van a interactuar con nuestras funciones en Javascript
+
+<form id="form" onsubmit="return false;">
+    <input style="" type="text" id="userInput" />
+    <input style="" type="submit" onclick="hello();" />
+  </form>
+
+onclick es nuestro evento y lo que se encuentra dentro de los parentesis es la funcion que se va a ejecutar.
+
+Luego pasamos a nuestro archivo de Javascript y copiamos las siguente funcion.
+
+  function hello() {
+  var input = document.getElementById("userInput").value;
+  alert("Hello" + " " + input + ", welcome to D-Coding");
+  }
+
+alert es lo que envia un pop up con nuestro mensaje.
+
+Veamos que es lo que hace.
+
+- - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - 
+
+Ahora a crear nuestro segundo set de botones en el HTML
+
+<input type="button" onclick="chBackcolor('red');" value="red">
+                                                           
+<input type="button" onclick="chBackcolor('yellow');" value="yellow">
+
+aqui cada boton tiene un parametro que se le esta pasando a la funcion en javascript
+
+EN el archivo de javascript creamos la funcion que va recibir parametros de ambos botones
+
+function chBackcolor(color) {
+  document.body.style.background = color;
+
+}
+
+
+
+
+
+- - - - - - - - - - - - - - - - - - -  
