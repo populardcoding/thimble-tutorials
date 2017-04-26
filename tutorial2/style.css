@@ -1,0 +1,88 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+h2{
+  text-transform: uppercase
+}
+
+
+#seccion-logo{
+  background: #000;
+  padding: 20px
+}
+#seccion-logo form{
+  float:right;
+  padding-top: 20px;
+}
+#seccion-logo #buttons{
+  padding-left: 20px;
+  margin-bottom: -20px;
+}
+#seccion-foto-principal{
+  width: 100% !important;
+  height: 300px !important;
+  overflow: hidden
+}
+#seccion-foto-principal img{
+  height: auto;
+  width: 100% !important;
+}
+#seccion-iniciativa{
+  padding: 20px;
+  clear: both;
+  min-height: 300px
+}
+#seccion-iniciativa div{
+  float: left;
+  width: 45% !important;
+  padding-left: 20px
+}
+#seccion-iniciativa div img{
+  height: auto;
+  max-width: 100%
+}
+#seccion-iconos{
+  clear: both;
+  padding: 20px;
+  background: #f5f5f5;
+  width: 100%;
+  min-height: 300px;
+  margin-top: 20px
+}
+#seccion-iconos img{
+  display: block;
+  margin-bottom: 10px
+}
+#seccion-iconos div{
+  float: left;
+  width:30%;
+  padding: 10px;
+  min-height: 200px;
+}
+@media(max-width:480px){
+  #seccion-foto-principal{
+    height: auto  !important
+  }
+  #seccion-iniciativa div img{
+    width:100%;
+    height: auto;
+  }
+  #seccion-iconos div{
+    min-height: 120px;
+    width: 90%;
+    float: none;
+    display: block;
+    padding-top: 10px;
+  }
+}
+@media(max-width:768px){
+  #seccion-iniciativa div{
+    float: none;
+    width: 100% !important;
+    padding-left: 0px
+  }
+}
+
+

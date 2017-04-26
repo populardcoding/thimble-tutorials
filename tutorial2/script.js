@@ -23,3 +23,12 @@ function chBackcolor(color) {
   document.body.style.background = color;
 
 }
+
+function bigImg(x) {
+  x.style.height = "64px";
+  x.style.width = "64px";
+}
+function regImg(x){
+  x.style.height = "40px";
+  x.style.width = "40px";
+}
