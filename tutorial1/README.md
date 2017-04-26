@@ -8,11 +8,11 @@ Estaremos utilizando los siguiente elementos HTML:
 Les estaremos añadiendo un atributo de identificación (id=“”) 
 algunos elemento para así poder estilizarlos luego.
 
-*IMPORTANTE: Asegurense siempre que comienzen un elemento de HTML lo cierren. 
+*IMPORTANTE: Asegúrense siempre que comienzen un elemento de HTML lo cierren. 
 
 Ejemplo
-Si habren el elemento de división así:  <div>
-Asegurense de cerrar el elemento así: 	</div>
+Si abren el elemento de división así:  <div>
+Asegúrense de cerrar el elemento así: 	</div>
 
 
 - - - - - - - - - - - - - - - - - - 
